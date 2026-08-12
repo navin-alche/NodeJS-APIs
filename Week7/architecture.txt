@@ -1,0 +1,48 @@
+
+{
+  "dependencies": {
+    "express": "^2.8.1", // Any 2.x.x version (2.8.1 or higher)
+    "lodash": "~2.8.1", // Any 2.8.x version (2.8.1 or higher)
+    "moment": "2.8.1", // Exactly version 2.8.1
+    "axios": ">=2.8.1", // Version 2.8.1 or any higher version
+    "debug": "2.x" // Any version starting with 2
+  }
+}
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+                 REQUEST
+                    ↓
+
+           Node.js + Express
+
+                    ↓
+
+              ROUTE FOUND
+
+                    ↓
+
+           JavaScript Logic
+
+                    ↓
+
+                 DATA
+
+                    ↓
+
+               RESPONSE
+                    ↓
+
+                  JSON
+
+
