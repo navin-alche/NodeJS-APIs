@@ -63,42 +63,42 @@
 
 //step 7: let's return a real json
 
-// const express = require("express");
-// const app = express();
-// const PORT = 3000;
+const express = require("express");
+const app = express();
+const PORT = 3000;
 
-// app.get("/student", (req, res) => {
+app.get("/student", (req, res) => {
 
-//     // const student = {
-//     //     id: 1,
-//     //     name: "Navin",
-//     //     course: "Computer Science"
-//     // };
+    // const student = {
+    //     id: 1,
+    //     name: "Navin",
+    //     course: "Computer Science"
+    // };
 
-//     const students = [
-//     {
-//         id: 1,
-//         name: "Elera",
-//         course: "Software Engineering"
-//     },
-//     {
-//         id: 2,
-//         name: "Brian",
-//         course: "Computer Science"
-//     },
-//     {
-//         id: 3,
-//         name: "J'Isabelle",
-//         course: "Cyber Security"
-//     }
-// ];
+    const students = [
+    {
+        id: 1,
+        name: "Elera",
+        course: "Software Engineering"
+    },
+    {
+        id: 2,
+        name: "Brian",
+        course: "Computer Science"
+    },
+    {
+        id: 3,
+        name: "J'Isabelle",
+        course: "Cyber Security"
+    }
+];
 
-//     res.json(students);
-// });
+    res.json(students);
+});
 
-// app.listen(PORT, () => {
-//     console.log(`Server running on http://localhost:${PORT}`);
-// });
+app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+});
 
 
 //step 8: what if we need only 1 student?

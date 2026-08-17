@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navin-alche/NodeJS-APIs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/navin-alche/NodeJS-APIs/issues"
+  },
+  "homepage": "https://github.com/navin-alche/NodeJS-APIs#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}

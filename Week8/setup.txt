@@ -1,0 +1,18 @@
+npm init -y
+
+//package.json is now available -> contains name of project, version, main js file, script to automate something
+//e.g "start":"node app.js" -> we can now use npm start
+
+
+npm install express swagger-ui-express swagger-jsdoc
+
+npm install
+    │
+    ├── express
+    │     └── Used to create the web server and API endpoints
+    │
+    ├── swagger-ui-express
+    │     └── Displays Swagger documentation in the browser
+    │
+    └── swagger-jsdoc
+          └── Reads our Swagger comments and generates the API documentation
